@@ -33,7 +33,7 @@ button:hover{
     color: white;
     transition: 0.5s;
 }
-@media  screen and (max-width: 493px) and (-webkit-min-device-pixel-ratio:0){
+@media  screen and (max-width: 493px) and (-webkit-min-device-pixel-ratio:493px){
     .container{
         margin: auto;
     }
