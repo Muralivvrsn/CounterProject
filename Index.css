@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.container{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    
+}
+.name{
+    font-size: 4.3rem;
+    color: rgb(7, 5, 45);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    padding: 10%;
+}
+.name > span{
+    margin-left: 80px;
+}
+.counter{
+    font-size: 6rem;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 35%;
+    padding-left: 10%;
+    
+
+}
+button{
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 10px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
