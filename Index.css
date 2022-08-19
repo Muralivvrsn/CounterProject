@@ -10,7 +10,6 @@ body{
     color: rgb(7, 5, 45);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    padding: 10% 0 10% 0;
 }
 .counter{
     font-size: 6rem;
@@ -46,7 +45,7 @@ button:hover{
         text-align: center;
     }
     .counter{
-        font-size: 5.5rem;
+        font-size: 6rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
         text-align: center;
