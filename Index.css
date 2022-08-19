@@ -9,19 +9,14 @@ body{
     font-size: 4.3rem;
     color: rgb(7, 5, 45);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    padding: 10%;
-}
-.name > span{
-    margin-left: 80px;
+    text-align: center;
+    padding: 10% 0 10% 0;
 }
 .counter{
     font-size: 6rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-left: 35%;
-    padding-left: 10%;
-    
-
+    margin: auto;
+    text-align: center;
 }
 button{
     font-size: 1rem;
@@ -39,7 +34,7 @@ button:hover{
     color: white;
     transition: 0.5s;
 }
-@media screen and (max-width: 493px){
+@media screen and (max-width: 494px){
     .container{
         margin: auto;
     }
@@ -47,14 +42,13 @@ button:hover{
         font-size: 4.3rem;
         color: rgb(7, 5, 45);
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .name > span{
-        margin: auto;
+        text-align: center;
     }
     .counter{
         font-size: 5.5rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         padding-left: 10%;
+        text-align: center;
     }
     button{
         max-width: 100%;
