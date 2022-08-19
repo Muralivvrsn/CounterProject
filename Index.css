@@ -28,15 +28,12 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-.buttons{
-    display: flex;
-}
 button:hover{
     background-color: black;
     color: white;
     transition: 0.5s;
 }
-@media screen and (max-width: 493px) and(-webkit-min-device-pixel-ratio:0){
+@media  screen and (max-width: 493px) and (-webkit-min-device-pixel-ratio:0){
     .container{
         margin: auto;
     }
@@ -44,7 +41,6 @@ button:hover{
         font-size: 4.3rem;
         color: rgb(7, 5, 45);
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        margin-left: -5px;
         text-align: center;
     }
     .counter{
@@ -56,19 +52,19 @@ button:hover{
     button{
         font-size: 1rem;
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 10px;
         font-family: monospace;
-        letter-spacing: 1px;
+        letter-spacing: 5px;
         background-color: white;
         font-weight: bold;
         cursor: pointer;
+    }
+    .buttons{
+        display: grid;
     }
     button:hover{
         background-color: black;
         color: white;
         transition: 0.5s;
-    }
-    .buttons{
-        display: grid;
     }
 }
