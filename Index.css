@@ -42,6 +42,7 @@ button:hover{
         font-size: 4.3rem;
         color: rgb(7, 5, 45);
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: -5px;
         text-align: center;
     }
     .counter{
