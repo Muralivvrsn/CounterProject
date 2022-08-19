@@ -47,12 +47,10 @@ button:hover{
     .counter{
         font-size: 6rem;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+        margin: auto;
         text-align: center;
     }
     button{
-        max-width: 100%;
-        height: auto;
         font-size: 1rem;
         padding: 5px;
         border-radius: 5px;
