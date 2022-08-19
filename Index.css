@@ -3,10 +3,7 @@ body{
     display: flex;
 }
 .container{
-    max-width: 100%;
-    height: auto;
     margin: auto;
-    
 }
 .name{
     font-size: 4.3rem;
@@ -20,7 +17,6 @@ body{
 }
 .counter{
     font-size: 6rem;
-    margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 35%;
     padding-left: 10%;
@@ -42,4 +38,79 @@ button:hover{
     background-color: black;
     color: white;
     transition: 0.5s;
+}
+@media screen and (max-width:493px) and (min-width: 341px) {
+    .container{
+        margin: auto;
+    }
+    .name{
+        font-size: 4rem;
+        color: rgb(7, 5, 45);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10%;
+    }
+    .name > span{
+        margin-left: 40px;
+    }
+    .counter{
+        font-size: 5.5rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 35%;
+        padding-left: 10%;
+    }
+    button{
+        max-width: 100%;
+        height: auto;
+        font-size: 11px;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: monospace;
+        letter-spacing: 1px;
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+}
+@media screen and (max-width: 340px){
+    .container{
+        margin: auto;
+    }
+    .name{
+        font-size: 4rem;
+        color: rgb(7, 5, 45);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .name > span{
+        margin: auto;
+    }
+    .counter{
+        font-size: 5.5rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-left: 10%;
+    }
+    button{
+        max-width: 100%;
+        height: auto;
+        font-size: 11px;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: monospace;
+        letter-spacing: 1px;
+        background-color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        transition: 0.5s;
+    }
+    .buttons{
+        display: grid;
+    }
 }
